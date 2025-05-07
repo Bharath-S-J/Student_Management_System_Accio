@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <input type="text" id="searchBar" placeholder="Search by name or email..." oninput="handleSearch()">
+    <button onclick="sortAZ()">Sort A->Z</button>
+    <button onclick="sortZA()">Sort Z->A</button>
+    <button onclick="sortByMarks()">Sort by Marks</button>
+    <button onclick="showPassing()">Show Passing</button>
+    <button onclick="sortByClass()">Sort by Class</button>
+    <button onclick="sortByGender('Male')">Sort by Gender: Male</button>
+    <button onclick="sortByGender('Female')">Sort by Gender: Female</button>
+
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Gender</th>
+          <th>Class</th>
+          <th>Marks</th>
+          <th>Passing</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Data will be populated here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff; /* White background */
+  color: #000; /* Black text */
+}
+
+#app {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Light border */
+  background-color: #fff;
+  color: #000;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 5px;
+  cursor: pointer;
+  border: 1px solid #000; /* Black border */
+  background-color: #fff;
+  color: #000;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #f2f2f2; /* Slight grey on hover */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000; /* Black border */
+}
+
+th {
+  background-color: #f2f2f2; /* Light grey background for header */
+}
+
+td img {
+  border-radius: 50%; /* Circular images */
+  margin-right: 10px;
+}
