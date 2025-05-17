@@ -64,6 +64,9 @@ table, th, td {
   padding-left: 10px;
   padding: 5px;
 }
+th, td{
+  padding-left:15px;
+}
 img{
 
   border-radius: 50%;
