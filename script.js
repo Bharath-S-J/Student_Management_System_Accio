@@ -22,7 +22,7 @@ function renderTable(data) {
     idCell.textContent = student.id;
 
     const nameCell = document.createElement('td');
-    nameCell.innerHTML = `<img src="${student.img_src}" alt="${student.first_name} ${student.last_name}" width="30" height="30"> ${student.first_name} ${student.last_name}`;
+    nameCell.innerHTML = `<div style="display:flex;"><img src="${student.img_src}" alt="${student.first_name} ${student.last_name}" width="30" height="30"> <p> ${student.first_name} ${student.last_name}</p></div>`;
 
     const genderCell = document.createElement('td');
     genderCell.textContent = student.gender;
